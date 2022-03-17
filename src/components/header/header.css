@@ -1,12 +1,4 @@
-.images{
-    display: flex;
-    flex-direction: row;
-    overflow: hidden;
+.carousel-item{
+    height: 40vh;
 }
-
-.images img{
-    min-width: 100vw;
-    height:60vh;
-}
-
 

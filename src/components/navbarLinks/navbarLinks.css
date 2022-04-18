@@ -2,11 +2,29 @@
     display: flex;
     justify-content: center;
     list-style-type: none;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     color: #fff;
-    font-family: roboto sant-sarif;
+    font-family: sant-sarif;
     background: #000;
 }
 .Navlink{
-   margin: 5px 30px;
+   cursor: pointer;
+    margin: 5px 30px;
+}
+
+.Navlink:Hover{
+    color: cadetblue;
+    transition: all ease 1s;
+}
+
+/* 
+responsiveness
+*/
+@media screen and (max-width:1120px){
+.NavLinks{
+    flex-wrap: wrap; 
+}
+.Navlink{
+    margin: 5px;
+}   
 }

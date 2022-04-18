@@ -1,5 +1,6 @@
-import { LocationOn, Search, ShoppingCart, Add } from "@material-ui/icons";
+import { LocationOn, Search, ShoppingCart, Add, Home, RoomService, Language } from "@material-ui/icons";
 import './navbar.css';
+
 export default function Navbar() {
   return (
     <>
@@ -17,12 +18,16 @@ export default function Navbar() {
                 </div>
                  <div className="linksOfMainLinks">
                      <ul className="Links">
-                         <li className="Link">links</li>
-                         <li className="Link">links</li>
-                         <li className="Link">links</li>
-                         <li className="Link">links</li>
-                         <li className="Link">links</li>
+                         <li className="Link"><Home/></li>
+                         <li className="Link">About</li>
+                         <li className="Link"><RoomService/></li>
+                         <li className="Link"><Language/></li>
                      </ul>
+                 </div>
+                 <div className="mobile__menu">
+                     <div id="bar"></div>
+                     <div id="bar"></div>
+                     <div id="bar"></div>
                  </div>
                  <div className="UserLogo">
                      <div className="CartLogo">

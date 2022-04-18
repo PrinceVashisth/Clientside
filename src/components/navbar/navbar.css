@@ -58,5 +58,45 @@
 }
 .UserLogo{
     display: flex;
+    margin-left: auto;
+    margin-right: 5px;
     justify-content: space-around;
+}
+
+/*  responsiveness  */
+@media screen and (max-width:1120px){
+    .logoNavbar{
+        display: none;
+    }
+    .IconLocation{
+        display: none;
+    }
+    .Searchbar{
+        margin-left: 10px;
+    }
+ 
+}
+@media screen and (max-width:950px){
+    .Navbar__wrapper{
+        justify-content: space-between;
+    }
+    .Searchbar{
+        width:80vw; 
+    }
+   .SearchItem{
+       width: 80%;
+   }
+
+    .linksOfMainLinks{
+         position: absolute;
+         z-index: 999;
+         top: 80px;
+    }
+    .Links{
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        color: #fff;
+        background: #000;
+    }
 }

@@ -6,16 +6,20 @@ export default function NavbarLinks() {
     <>
         <div className="OtherLinks">
           <ul className="NavLinks">
-           <li className="Navlink">first</li>
-           <li className="Navlink">second</li>
-           <li className="Navlink">third</li>
-           <li className="Navlink">fourth</li>
-           <li className="Navlink">fifth</li>
-           <li className="Navlink">sixth</li>
-           <li className="Navlink">seven</li>
-           <li className="Navlink">eight</li>
+           <li className="Navlink">Top Picks</li>
+           <li className="Navlink">New Arrival</li>
+           <li className="Navlink">Trendy</li>
+           <li className="Navlink">Toys</li>
+           <li className="Navlink">Decoration Items</li>
+           <li className="Navlink">Todays Deal</li>
+           <li className="Navlink">New Release</li>
+           <li className="Navlink">Electronics</li>
+           <li className="Navlink">Start Selling</li>
           </ul>
-        </div>  
+        </div> 
+        <div className="ImagesOnHover">
+
+        </div> 
     </>
   )
 }

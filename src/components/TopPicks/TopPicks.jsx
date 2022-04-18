@@ -1,6 +1,6 @@
 import React from 'react'
 import './topPicks.css';
-import {sdata} from "../../dummydata";
+import {sdata} from "../../DummyData/TopPicksData";
 import TopPicksItem from '../TopPicksItems/TopPicksItem';
 
 const items = (val)=>{
